@@ -1,0 +1,31 @@
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# MLflow and Experiment Artifacts
+mlruns/
+mlflow.db
+outputs/
+models/
+
+# Tracking and Logs
+logs/
+*.log
+
+# Data (Assuming data.csv is tracked but local versions are not)
+# If your data is huge, exclude it and use DVC.
+# data.csv
+
+# IDEs
+.vscode/
+.idea/
+/data.csv
