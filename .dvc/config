@@ -1,0 +1,6 @@
+[core]
+    remote = origin
+['remote "origin"']
+    url = https://dagshub.com/abubakrmohibrahim/House-Price-Prediction-Mlops.dvc
+    auth = basic
+    user = abubakrmohibrahim
